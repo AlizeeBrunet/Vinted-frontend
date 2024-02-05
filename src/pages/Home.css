@@ -1,0 +1,40 @@
+main {
+  background-color: #ebedee;
+}
+
+.home > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 100px;
+  justify-content: center;
+}
+.offerCard {
+  width: 180px;
+  text-decoration: none;
+}
+.offerCard img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.offerCard span {
+  display: block;
+  font-size: 12px;
+  color: #9c9c9c;
+  margin-bottom: 10px;
+}
+.offerCard > img {
+  width: 100%;
+  height: 360px;
+}
+
+.offerCard p {
+  font-weight: bold;
+  color: #000;
+  margin-top: 10px;
+}
+.home {
+  border-top: 20px;
+}

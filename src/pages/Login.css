@@ -1,0 +1,48 @@
+.login {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+}
+
+.login h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: "maison neue";
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  margin-bottom: 10px;
+  height: 40px;
+  width: 250px;
+  border: solid black 1px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.login button {
+  background-color: #55b2ba;
+  color: white;
+  padding: 10px 15px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.login p {
+  text-align: center;
+  margin-top: 20px;
+  color: #55b2ba;
+  font-family: "maison neue";
+}
